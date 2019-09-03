@@ -20,12 +20,13 @@
     <div class="row">
       <img id="img" src="../img/mindsandsouls1.png" alt="Minds and Souls Logo" class="logo">
       <ul class="main-nav">
-        <li id="line1"><a href="../pages/index.html">Home</a></li>
-        <li id="line2"><a href="../pages/aboutUs.html">About</a></li>
-        <li id="line3"><a href="#">Gallery</a></li>
+        <!-- <li id="line1"><a href="../pages/index.html">Home</a></li> -->
+        <li id="line1"><a href="#index.html">Home</a></li>
+        <li id="line2"><a href="#aboutus">About</a></li>
+        <li id="line3"><a href="#gallery">Gallery</a></li>
 
-        <li id="line4"><a href="#">Testimonials</a></li>
-        <li id="line5"><a href="#">Contact Us</a></li>
+        <li id="line4"><a href="#testimonials">Testimonials</a></li>
+        <li id="line5"><a href="#contact">Contact Us</a></li>
 
         <li id="line6">
           <input type="button" id="donateBtn"
@@ -81,7 +82,8 @@
           them access to basic needs.
         </p>
         <div class="about-us-button">
-          <a href="../pages/about.html"><p>READ MORE</p></a>
+          <!-- <a href="../pages/about.html"><p>READ MORE</p></a> -->
+          <a href="aboutUs.html"><p>READ MORE</p></a>
         </div>
       </div>
       <div class="about-us-img">
@@ -126,8 +128,51 @@
       </div>
     </div>
   </div>
+
+  <section class="section-cities" id="testimonials">
+         <!--  <div>
+            <h2>SPONSORS</h2>
+          </div> -->
+
+          <div volunteer_section>
+            <table volunteer_section_view>
+              <tr>
+                <td for_image>
+                  <img src="../img/kids1.png" alt="Kids_photo">
+                </td>
+                <td message_form>
+                  <h2>Be a Volunteer</h2>
+                  <form action="" method="POST">
+                        <label for="name">Your Name</label>
+                        <input type="text" name="name" id="name">
+                        <label for="email">Your Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                        <input type="button" value="Send Message">
+                  </form>
+                </td>
+              </tr>
+            </table>
+          </div> 
+
+        <div class="row js--wp-3">
+            
+            <div class="col span-1-of-4 box">
+               
+            </div>
+            <div class="col span-1-of-4 box">
+                
+            </div>
+            <div class="col span-1-of-4 box">
+                
+            </div>
+        </div>   
+    </section>
+
+
 </main>
-<footer class="footer">
+<footer class="footer" id="contact">
   <!-- About Us -->
   <div class="foot-about">
     <h4 class="foot-title"><img src="../img/mindsandsouls1.png" alt="Minds and Souls Logo" class="footer_logo"
@@ -168,11 +213,11 @@
     </div>
   </div>
   <div class="clear"></div>
-  <p class="foot-info"> � 2019 Minds &amp; Souls Foundation. | Site design by <a href="../pages/team.html"
-                                                                                 id="team-stockholm">Team_Stockholm</a>
+  <p class="foot-info"> � 2019 Minds &amp; Souls Foundation. | Site design by <a href="team.html"
+                                                                                 id="#aboutUs">Team_Stockholm</a>
   </p>
 </footer>
-<script src="../js/index.js"></script>
+<script src="js/index.js"></script>
 </body>
 
 </html>
